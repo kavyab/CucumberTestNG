@@ -11,8 +11,8 @@ import org.testng.annotations.DataProvider;
         dryRun = false,
         monochrome = true, 
         plugin = {"html:target/cucumber-reports/TestResults_html.html",
-        		"json:target/cucumber-reports/TestResults_json.json"},        	      
-        
+        		"json:target/cucumber-reports/TestResults_json.json",
+        		"junit:target/cucumber-reports/TestResults_xml.xml"},        		        		       
         tags = "@positive_flow"
 )
 
